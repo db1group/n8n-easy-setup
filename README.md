@@ -37,12 +37,11 @@ brew install docker docker-compose
 ## Executando o N8N com Docker
 
 1. Baixe ou clone este repositório:
-
-- Via terminal, execute o comando:
-    ```bash
-    git clone https://github.com/db1group/n8n-easy-setup.git
-    ```
-- Ou baixe o arquivo ZIP do repositório e extraia-o.
+    - Via terminal, execute o comando:
+        ```bash
+        git clone https://github.com/db1group/n8n-easy-setup.git
+        ```
+    - Ou baixe o arquivo ZIP do repositório e extraia-o: https://github.com/db1group/n8n-easy-setup/archive/refs/heads/master.zip
 
 1. No terminal, navegue até o diretório onde o repositório foi clonado ou extraído:
     ```bash
@@ -53,14 +52,6 @@ brew install docker docker-compose
     ```bash
     docker-compose up -d
     ```
-
-> Aguarde alguns segundos. Para verificar se o N8N está rodando, execute:
-```bash
-docker ps
-```
+    > Aguarde alguns segundos. Para verificar se o N8N está rodando, execute:
 
 1. Acesse o N8N pelo navegador em: [http://localhost:5678](http://localhost:5678)
-
----
-
-> Dica: Se aparecer algum erro, verifique se o Docker está instalado e em execução. Não é necessário conhecimento técnico para seguir este guia, basta copiar e colar os comandos no terminal.
