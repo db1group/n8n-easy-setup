@@ -52,6 +52,6 @@ brew install docker docker-compose
     ```bash
     docker-compose up -d
     ```
-    > Aguarde alguns segundos. Para verificar se o N8N está rodando, execute:
+    > Aguarde alguns segundos.
 
 1. Acesse o N8N pelo navegador em: [http://localhost:5678](http://localhost:5678)
